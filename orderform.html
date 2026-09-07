@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;text-decoration: underline;">Fill Up The Form</h1>
+    </header>
+    <main class="form" id="form">
+        <form action="">
+            <select name="fooditem" id="fooditem">
+                <option value="">--select a option--</option>
+                <option value="chikenpizza">chicken Pizza</option>
+                <option value="beefpizza">Beef Pizza</option>
+            </select><br>
+
+            <label for="quantity">Enter Order Quantity</label><br>
+                <input type="number" min="1" name="quantity" id="quantity" value="1"><br>
+            
+
+            <label for="fname">First Name:</label><br>
+            <input type="text" class="fname" id="fname" name="fname" required><br>
+
+            <label for="lname">Last Name:</label><br>
+            <input type="text" class="lname" id="lname" name="lname" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" class="email" id="email" name="email" required><br>
+
+            <label for="address">Address:</label><br>
+            <textarea class="address" id="address" placeholder="Enter Your Full Address" name="address" required></textarea><br>
+
+            <p style="text-decoration: solid;text-decoration: underline;" >Delivery Type</p>
+            <label for="cod">Cash On Delivery</label>
+            <input type="radio" value="Cash On Delivery" name="delivery" id="cod" required><br>
+            <label for="payment">Payment</label>
+            <input type="radio" value="Payment" name="delivery" id="payment" required><br>
+            <input type="submit" value="Order Now">
+
+            
+        </form>
+    </main>
+
+</body>
+</html>
